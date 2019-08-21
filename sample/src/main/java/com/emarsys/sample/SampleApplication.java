@@ -30,9 +30,12 @@ public class SampleApplication extends Application implements EventHandler, Noti
 
         EmarsysConfig config = new EmarsysConfig.Builder()
                 .application(this)
-                .predictMerchantId("1428C8EE286EC34B")
-                .mobileEngageApplicationCode(MobileEngageCredentials.INTEGRATION_APPLICATION_CODE)
-                .contactFieldId(3)
+//                .predictMerchantId(MobileEngageCredentials.INTEGRATION_PREDICT_MERCHANT_ID)
+//                .mobileEngageApplicationCode(MobileEngageCredentials.INTEGRATION_APPLICATION_CODE)
+//                .contactFieldId(MobileEngageCredentials.INTEGRATION_CONTACT_FIELD_ID)
+                .predictMerchantId(MobileEngageCredentials.US_TEMPLATE_DEMO_PREDICT_MERCHANT_ID)
+                .mobileEngageApplicationCode(MobileEngageCredentials.US_TEMPLATE_DEMO_APPLICATION_CODE)
+                .contactFieldId(MobileEngageCredentials.US_TEMPLATE_DEMO_CONTACT_FIELD_ID)
                 .inAppEventHandler(this)
                 .notificationEventHandler(this)
                 .build();

@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">android-emarsys-sample-app</string>
+    <string name="app_name">us-android-emarsys-sample-app</string>
+    <string name="account_name">Account Connected: us_template_demo</string>
     <string name="applogin">login</string>
     <string name="applogout">logout</string>
     <string name="customevent">track custom event</string>
@@ -27,6 +28,16 @@
     <string name="category_view_title">Category View</string>
     <string name="contact_identification">Contact identification</string>
     <string name="order_id">order id</string>
-    <string name="recommend_products">Recommend Products</string>
-    <string name="recommendation">Recommendation</string>
+    <string name="recommend_products">Recommend Products (SEARCH logic)</string>
+    <string name="recommendation">Recommendation (SEARCH logic)</string>
+    <string name="recommend_products_cart">Recommend Products (CART logic)</string>
+    <string name="recommendation_cart">Recommendation (CART logic)</string>
+    <string name="recommend_products_related">Recommend Products (RELATED logic)</string>
+    <string name="recommendation_related">Recommendation (RELATED logic)</string>
+    <string name="recommend_products_category">Recommend Products (CATEGORY logic)</string>
+    <string name="recommendation_category">Recommendation (CATEGORY logic)</string>
+    <string name="recommend_products_also_bought">Recommend Products (ALSO_BOUGHT logic)</string>
+    <string name="recommendation_also_bought">Recommendation (ALSO_BOUGHT logic)</string>
+    <string name="recommend_products_popular">Recommend Products (POPULAR logic)</string>
+    <string name="recommendation_popular">Recommendation (POPULAR logic)</string>
 </resources>
